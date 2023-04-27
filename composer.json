@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Balfour\\Omnisend\\Laravel\\ServiceProvider"
+                "N30\\Omnisend\\Laravel\\ServiceProvider"
             ]
         }
     },
