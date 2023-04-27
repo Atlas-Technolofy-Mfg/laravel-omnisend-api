@@ -1,9 +1,9 @@
 <?php
 
-namespace N30\Omnisend\Laravel\Jobs;
+namespace n30\Omnisend\Laravel\Jobs;
 
-use N30\Omnisend\ContactInterface;
-use N30\Omnisend\Omnisend;
+use n30\Omnisend\ContactInterface;
+use n30\Omnisend\Omnisend;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
