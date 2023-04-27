@@ -59,6 +59,6 @@ return [
     |
     */
 
-    'default_contact_status' => env('OMNISEND_DEFAULT_CONTACT_STATUS', \N30\Omnisend\ContactStatus::SUBSCRIBED),
+    'default_contact_status' => env('OMNISEND_DEFAULT_CONTACT_STATUS', N30\Omnisend\ContactStatus::SUBSCRIBED),
 
 ];
