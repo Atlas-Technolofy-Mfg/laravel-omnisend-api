@@ -1,6 +1,6 @@
 <?php
 
-namespace Balfour\Omnisend;
+namespace N30\Omnisend;
 
 interface EventInterface
 {

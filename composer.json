@@ -1,5 +1,5 @@
 {
-    "name": "n30/laravel-omnisend-api",
+    "name": "N30/laravel-omnisend-api",
     "description": "A laravel library for interacting with the Omnisend API v3",
     "type": "library",
     "license": "MIT",
@@ -16,13 +16,13 @@
     },
     "autoload": {
         "psr-4": {
-            "n30\\Omnisend\\": "src/"
+            "N30\\Omnisend\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "n30\\Omnisend\\Laravel\\ServiceProvider"
+                "N30\\Omnisend\\Laravel\\ServiceProvider"
             ]
         }
     }
