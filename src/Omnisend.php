@@ -1,5 +1,5 @@
 <?php
-
+/* */
 namespace N30\Omnisend;
 
 use Carbon\Carbon;
