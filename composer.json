@@ -1,5 +1,5 @@
 {
-    "name": "N30/laravel-omnisend-api",
+    "name": "n30/laravel-omnisend-api",
     "description": "A laravel library for interacting with the Omnisend API v3",
     "type": "library",
     "license": "MIT",
@@ -25,6 +25,8 @@
                 "N30\\Omnisend\\Laravel\\ServiceProvider"
             ]
         }
+    },
+     "config": {
+        "sort-packages": true
     }
-    
 }
