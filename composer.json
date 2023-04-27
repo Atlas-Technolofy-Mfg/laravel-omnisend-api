@@ -1,5 +1,5 @@
 {
-    "name": "n30/php-omnisend",
+    "name": "n30/laravel-omnisend",
     "description": "A laravel library for interacting with the Omnisend API v3",
     "type": "library",
     "license": "MIT",
