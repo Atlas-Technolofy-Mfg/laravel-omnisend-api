@@ -1,10 +1,10 @@
 <?php
 
-namespace N30\Omnisend\Laravel\Jobs;
+namespace Balfour\Omnisend\Laravel\Jobs;
 
-use N30\Omnisend\ContactStatus;
-use N30\Omnisend\ContactInterface;
-use N30\Omnisend\Omnisend;
+use Balfour\Omnisend\ContactStatus;
+use Balfour\Omnisend\ContactInterface;
+use Balfour\Omnisend\Omnisend;
 use Carbon\CarbonInterface;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;

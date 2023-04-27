@@ -1,6 +1,6 @@
 <?php
-/* */
-namespace N30\Omnisend;
+
+namespace Balfour\Omnisend;
 
 use Carbon\Carbon;
 use Carbon\CarbonInterface;

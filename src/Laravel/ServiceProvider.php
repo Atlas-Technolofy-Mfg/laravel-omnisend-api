@@ -1,8 +1,8 @@
 <?php
 
-namespace N30\Omnisend\Laravel;
+namespace Balfour\Omnisend\Laravel;
 
-use N30\Omnisend\Omnisend;
+use Balfour\Omnisend\Omnisend;
 use GuzzleHttp\Client;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace N30\Omnisend\Laravel\Jobs;
+namespace Balfour\Omnisend\Laravel\Jobs;
 
-use N30\Omnisend\EventInterface;
-use N30\Omnisend\Omnisend;
+use Balfour\Omnisend\EventInterface;
+use Balfour\Omnisend\Omnisend;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;

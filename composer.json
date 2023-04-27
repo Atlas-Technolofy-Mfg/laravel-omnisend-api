@@ -1,32 +1,35 @@
 {
-    "name": "n30/laravel-omnisend-api",
-    "description": "A laravel library for interacting with the Omnisend API v3",
+    "name": "balfour/php-omnisend",
+    "description": "A library for interacting with the Omnisend API",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Neo Nosrati",
-            "email": "github@columbussoft.com"
+            "name": "Balfour Group",
+            "email": "team-dev@balfourgroup.com"
         }
     ],
     "require": {
         "ext-json": "*",
-        "guzzlehttp/guzzle": "^7",
+        "guzzlehttp/guzzle": "^6.3",
         "nesbot/carbon": "^2.0"
     },
     "autoload": {
         "psr-4": {
-            "N30\\Omnisend\\": "src/"
+            "Balfour\\Omnisend\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "N30\\Omnisend\\Laravel\\ServiceProvider"
+                "Balfour\\Omnisend\\Laravel\\ServiceProvider"
             ]
         }
     },
-     "config": {
+    "config": {
+        "preferred-install": "dist",
         "sort-packages": true
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }

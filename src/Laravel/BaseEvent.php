@@ -1,10 +1,10 @@
 <?php
 
-namespace N30\Omnisend\Laravel;
+namespace Balfour\Omnisend\Laravel;
 
-use N30\Omnisend\EventInterface;
-use N30\Omnisend\Laravel\Jobs\TriggerEvent;
-use N30\Omnisend\Omnisend;
+use Balfour\Omnisend\EventInterface;
+use Balfour\Omnisend\Laravel\Jobs\TriggerEvent;
+use Balfour\Omnisend\Omnisend;
 
 abstract class BaseEvent implements EventInterface
 {

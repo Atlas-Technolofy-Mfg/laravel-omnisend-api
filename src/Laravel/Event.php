@@ -1,6 +1,6 @@
 <?php
 
-namespace N30\Omnisend\Laravel;
+namespace Balfour\Omnisend\Laravel;
 
 class Event extends BaseEvent
 {
